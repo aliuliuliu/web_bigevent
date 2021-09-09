@@ -1,0 +1,69 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    /* ç”¨äºŽè§£å†³ä¸€äº›æœªçŸ¥çš„ bug */
+}
+
+body {
+    background-color: #48a0f8;
+    ;
+}
+
+#logo {
+    height: 100px;
+}
+
+#logo img {
+    margin: 20px 0 0 240px;
+    align-items: center;
+}
+
+.box {
+    width: 400px;
+    height: 310px;
+    background-color: rgb(249, 219, 102);
+    box-shadow: 5px 5px 5px 5px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* é»˜è®¤æ³¨å†Œçš„ç›’å­éšè— */
+
+.register {
+    display: none;
+}
+
+.box_title {
+    height: 60px;
+    line-height: 60px;
+    font-size: 26px;
+    text-align: center;
+}
+
+.box a {
+    float: right;
+}
+
+.layui-form {
+    margin: 0 30px;
+}
+
+/*å®šä¹‰å­—ä½“å›¾æ ‡*/
+
+.layui-form-item {
+    position: relative;
+}
+
+.layui-icon {
+    position: absolute;
+    left: 10px;
+    top: 11px;
+}
+
+.layui-input {
+    padding-left: 30px;
+}
