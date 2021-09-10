@@ -1,0 +1,170 @@
+.sider{
+    position:fixed;
+    left:0;
+    top:0;
+    bottom:0;
+    width:210px;
+    background-color: #323745;
+}
+.sider .logo{
+    display:block;
+    height:56px;
+    background-color: #242732;
+    overflow: hidden;
+}
+.sider .logo img{
+    display:block;
+    margin:6px auto 0;
+}
+.user_info{
+    height:79px;
+    border-bottom:1px solid #5a5e6b;
+}
+
+.user_info img{
+    float: left;
+    width:40px;
+    height:40px;
+    border-radius:20px;
+    margin:19px 0 0 30px;
+}
+.user_info span{
+    float: left;
+    width:120px;
+    font-size:12px;
+    color:#fff;
+    margin:23px 0 0 20px;
+}
+.user_info b{
+    float: left;
+    width: 120px;
+    font-weight:normal;
+    font-size:12px;
+    color:#adafb5;
+    margin:2px 0 0 20px;
+}
+
+.menu .level01{
+    height:50px;
+    line-height:50px;
+}
+.menu .level01 a{
+    display:block;
+    height:50px;
+    font-size:12px;
+    color:#adafb5;
+    overflow: hidden;
+}
+.menu .level01.active a{
+    background-color: #1378f0;
+    color:#fff;
+}
+.menu .level01.active i{
+    color:#fff;
+}
+
+.menu .level01 a:hover{
+    background-color: #1378f0;
+    color:#fff;
+}
+.menu .level01 a:hover i{
+    color:#fff;
+}
+.menu .level01 i{
+    color:#61646f;
+    font-size:22px;
+    float: left;
+    margin-left:26px;
+}
+.menu .level01 span{
+    float: left;
+    margin-left:10px;
+}
+.menu .level01 b{
+    float: right;
+    margin-right:20px;
+    font-weight:normal;
+    transform:rotate(-90deg);
+    transition:all 500ms ease;
+}
+
+.menu .level01 .rotate0{
+    transform:rotate(0deg);
+}
+
+.menu .level02{
+    background: #242732;
+    display:none;
+}
+
+
+.menu .level02 li{
+    height:40px;
+    line-height:40px;
+}
+.menu .level02 li a{
+    display:block;
+    height:40px;
+    font-size:12px;
+    color:#adafb5;
+    overflow: hidden;
+}
+
+.menu .level02 li a:hover{
+    background-color: #1378f0;
+    color:#fff;
+}
+
+.menu .level02 li i{
+    font-size:12px;
+    float: left;
+    margin-left:60px;
+}
+.menu .level02 li span{
+    font-size:12px;
+    float: left;
+    margin-left:5px;
+}
+
+.menu .level02 .active a{
+    color:#ffae00;
+}
+
+.header_bar{
+    position:fixed;
+    left:210px;
+    right:0;
+    top:0;
+    height:56px;
+    background-color: #fff;
+}
+
+.main{
+    position:fixed;
+    left:210px;
+    top:56px;
+    right:0;
+    bottom:0;
+    background-color: #f2f3f5;
+}
+
+.user_center_link{
+    float:right;
+
+}
+.user_center_link a{
+    line-height:56px;
+    font-size:12px;
+    color:#999;
+    margin-right:15px;
+}
+.user_center_link a:hover{
+    color:#ffae00
+}
+
+.user_center_link img{
+    width:42px;
+    height:42px;
+    border-radius:32px;
+    margin-right:10px;
+}
